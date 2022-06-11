@@ -15,7 +15,7 @@ class Product
         $this->price = $price;
     }
 
-    public function computeTVA(): float | Exception
+    public function computeTVA(): float
     {
         if ($this->price < 0) {
             throw new Exception('The TVA cannot be negative.');

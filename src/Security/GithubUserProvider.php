@@ -4,7 +4,6 @@ namespace App\Security;
 
 use App\Entity\User;
 use GuzzleHttp\Client;
-use JetBrains\PhpStorm\Pure;
 use JMS\Serializer\SerializerInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use JMS\Serializer\Exception\LogicException;
